@@ -1,7 +1,7 @@
 require 'yaml'
 require 'pry'
 
-def load_library
+def load_library(file_path)
    emoticons = YAML.load_file(file_path)
 
   # Hash must use the => syntax to pass tests.
